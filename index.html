@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Potato😋</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      .card:hover {
+        transform: scale(1.05);
+        transition: ease-in-out 300ms;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg shadow">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#MenuPanel"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a href="#" class="navbar-brand">Potato😋</a>
+        <button id="themeToggle">Tap Here to change Theme</button>
+        <div class="collapse navbar-collapse" id="MenuPanel">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">All About You</a>
+            </li>
+          </ul>
+
+          <div>
+            <form class="d-flex">
+              <input type="text" class="form-control" />
+              <button class="btn mx-2 btn-outline-primary">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-4 mt-5">
+      <div class="p-3"><h1>Know About Potato😋</h1></div>
+      <div>
+        <img class="shadow" style="min-width: 100vw" src="potato.png" alt="" />
+      </div>
+    </main>
+    <section>
+      <h2 class="p-3">Here's some items you can make with potatoes:</h2>
+    </section>
+    <section class="row">
+      <div class="card col-5 m-4">
+        <img class="p-3" style="" src="c.png" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Potato Curry</h5>
+          <p class="card-text">
+            Potato curry recipe stovetop & instant pot instructions. Simple and
+            easy to make. Serve with rice, bread, pav, chapathi or roti.
+          </p>
+        </div>
+      </div>
+      <div class="card col-5 m-4">
+        <img class="p-3" style="" src="f.png" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">French fries</h5>
+          <p class="card-text">
+            French fries, chips, finger chips, french-fried potatoes, or simply
+            fries, are batonnet or allumette-cut deep-fried potatoes of disputed
+            origin from Belgium or France.
+          </p>
+        </div>
+      </div>
+      <div class="card col-5 m-4">
+        <img class="p-3" style="" src="ch.png" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Crisps</h5>
+          <p class="card-text">
+            A potato chip or crisp is a thin slice of potato that has been deep
+            fried, baked, or air fried until crunchy. They are commonly served
+            as a snack, side dish, or appetizer.
+          </p>
+        </div>
+      </div>
+      <div class="card col-5 m-4">
+        <img class="p-3" style="" src="m.png" alt="" />
+        <div class="card-body">
+          <h5 class="card-title">Mashed potato</h5>
+          <p class="card-text">
+            Mashed potato or mashed potatoes, colloquially known as mash, is a
+            dish made by mashing boiled or steamed potatoes, usually with added
+            milk, butter, salt and pepper.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-2">
+      <h1 id="www" class="m-5 p-2"></h1>
+      <label for="">Input Your Age:</label>
+      <input id="qqq" type="text" />
+      <button onclick="see()" class="btn btn-danger">Submit</button><br />
+    </section>
+    <footer>
+      <div
+        class="footer"
+        style="
+          text-decoration: none;
+          padding: 20px 0;
+          margin-top: auto; /* Push the footer to the bottom */
+          width: 100%;
+        "
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Navigation</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >Twitter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="text-decoration: none; color: rgb(116, 116, 73)"
+                    href="#"
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document
+        .getElementById("themeToggle")
+        .addEventListener("click", function () {
+          // Get the HTML element
+          const htmlElement = document.querySelector("html");
+
+          // Toggle the data-bs-theme attribute
+          if (htmlElement.getAttribute("data-bs-theme") === "dark") {
+            htmlElement.setAttribute("data-bs-theme", "light");
+          } else {
+            htmlElement.setAttribute("data-bs-theme", "dark");
+          }
+        });
+      function see() {
+        var x = document.getElementById("qqq").value;
+
+        if (x < 0) {
+          let y = document.getElementById("www");
+          y.innerHTML = "ধুর মিয়া,মজা লও? 😠";
+        } else if (x > 0 && x < 18) {
+          let y = document.getElementById("www");
+          y.innerHTML = "You're Still A Kid 🐣";
+        } else if (x >= 18 && x < 100) {
+          let y = document.getElementById("www");
+          y.innerHTML = "You're An Adult 🐤";
+        } else {
+          let y = document.getElementById("www");
+          y.innerHTML = "ধুর মিয়া,মজা লও? 😠";
+        }
+      }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
